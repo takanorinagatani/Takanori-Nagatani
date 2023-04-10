@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+main > .container {
+  padding: 10px 15px ;
+}
+
+.footer {
+  background-color: #d6b58e;
+}
+
+.footer > .container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* jumbotron : 背景に画像を設定 */
+.jumbotron {
+  background: url(image/E576252F-A77B-4279-A27C-C561211AB941.jpg) center no-repeat;
+  background-size: cover;
+}
+
+/* card1 : カーソルが重なるとちょっと拡大 */
+.card1:hover{
+  transform: scale(1.05);
+  transition: .05s ease-in-out;
+}
+
+/* google map */
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
